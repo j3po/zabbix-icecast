@@ -1,3 +1,12 @@
+11 Juni 2026
+- added additional parameters to monitor
+- conversion to numbers in XSL files
+- changed path in userparameters.txt and explicit bash calling
+- added error checks in icestat.sh
+- Template_App_Icecast.xml adopted to funklust streams
+- added example_stat.xml to the repo as reference
+###
+
 24 November 2014
 - change process name to be monitored to icecast2
 - rewrite README to markdown
