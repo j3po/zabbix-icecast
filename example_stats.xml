@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<icestats>
+    <admin>technik@funklust.de</admin>
+    <client_connections>73155</client_connections>
+    <clients>27</clients>
+    <connections>272055</connections>
+    <file_connections>722</file_connections>
+    <host>streaming.funklust.de</host>
+    <listener_connections>5432</listener_connections>
+    <listeners>11</listeners>
+    <location>Erlangen, Germany</location>
+    <server_id>icecast</server_id>
+    <server_start>Tue, 04 Jun 2024 20:14:15 +0000</server_start>
+    <server_start_iso8601>2024-06-04T20:14:15+0000</server_start_iso8601>
+    <source_client_connections>16</source_client_connections>
+    <source_relay_connections>0</source_relay_connections>
+    <source_total_connections>16</source_total_connections>
+    <sources>16</sources>
+    <stats>0</stats>
+    <stats_connections>0</stats_connections>
+    <source mount="/heaac">
+        <audio_info>ice-samplerate=48000;ice-bitrate=96000;ice-channels=2</audio_info>
+        <bitrate>96000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>96000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>5</listener_peak>
+        <listeners>3</listeners>
+        <listenurl>http://streaming.funklust.de:8010/heaac</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust - AAC 96kbps</server_name>
+        <server_type>audio/aacp</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>6</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>7115197600</total_bytes_read>
+        <total_bytes_sent>15298232761</total_bytes_sent>
+    </source>
+    <source mount="/heaac-iisonly">
+        <audio_info>ice-samplerate=48000;ice-bitrate=96000;ice-channels=2</audio_info>
+        <bitrate>96000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>96000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>3</listener_peak>
+        <listeners>3</listeners>
+        <listenurl>http://streaming.funklust.de:8010/heaac-iisonly</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust - AAC 224kbps for IIS</server_name>
+        <server_type>audio/aacp</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>7115197476</total_bytes_read>
+        <total_bytes_sent>21346170980</total_bytes_sent>
+    </source>
+    <source mount="/mp3">
+        <audio_info>ice-samplerate=48000;ice-bitrate=128000;ice-channels=2</audio_info>
+        <bitrate>128000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>128000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>23</listener_peak>
+        <listeners>2</listeners>
+        <listenurl>http://streaming.funklust.de:8010/mp3</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust - MP3</server_name>
+        <server_type>audio/mpeg</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>11</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>9465156906</total_bytes_read>
+        <total_bytes_sent>23345525607</total_bytes_sent>
+    </source>
+    <source mount="/mp3-iisonly">
+        <audio_info>ice-samplerate=48000;ice-bitrate=224000;ice-channels=2</audio_info>
+        <bitrate>224000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>224000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/mp3-iisonly</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust - AAC 224kbps for IIS</server_name>
+        <server_type>audio/mpeg</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>16592398089</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/mp3HQ">
+        <audio_info>ice-samplerate=48000;ice-bitrate=224000;ice-channels=2</audio_info>
+        <bitrate>224000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>224000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>5</listener_peak>
+        <listeners>3</listeners>
+        <listenurl>http://streaming.funklust.de:8010/mp3HQ</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust - MP3 HQ</server_name>
+        <server_type>audio/mpeg</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>11</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>16592398089</total_bytes_read>
+        <total_bytes_sent>26909977370</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_M12">
+        <audio_info>ice-samplerate=48000;ice-bitrate=12000;ice-channels=2</audio_info>
+        <bitrate>12000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>12000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_M12</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE M12</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>949618143</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_M16">
+        <audio_info>ice-samplerate=48000;ice-bitrate=16000;ice-channels=2</audio_info>
+        <bitrate>16000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>16000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_M16</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE M16</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>1246084000</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_M20">
+        <audio_info>ice-samplerate=48000;ice-bitrate=20000;ice-channels=2</audio_info>
+        <bitrate>20000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>20000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_M20</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE M20</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>1541391776</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_M24">
+        <audio_info>ice-samplerate=48000;ice-bitrate=24000;ice-channels=2</audio_info>
+        <bitrate>24000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>24000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_M24</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE M24</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>1853839701</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_M32">
+        <audio_info>ice-samplerate=48000;ice-bitrate=32000;ice-channels=2</audio_info>
+        <bitrate>32000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>32000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_M32</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE M32</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>2447231728</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S128">
+        <audio_info>ice-samplerate=48000;ice-bitrate=128000;ice-channels=2</audio_info>
+        <bitrate>128000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>128000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S128</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S128</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>9688425600</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S16">
+        <audio_info>ice-samplerate=48000;ice-bitrate=16000;ice-channels=2</audio_info>
+        <bitrate>16000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>16000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S16</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S16</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>1248400275</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S24">
+        <audio_info>ice-samplerate=48000;ice-bitrate=24000;ice-channels=2</audio_info>
+        <bitrate>24000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>24000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S24</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S24</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>1856618400</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S32">
+        <audio_info>ice-samplerate=48000;ice-bitrate=32000;ice-channels=2</audio_info>
+        <bitrate>32000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>32000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S32</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S32</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>2449926276</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S64">
+        <audio_info>ice-samplerate=48000;ice-bitrate=64000;ice-channels=2</audio_info>
+        <bitrate>64000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>64000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S64</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S64</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>4852893288</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+    <source mount="/xheaac_S96">
+        <audio_info>ice-samplerate=48000;ice-bitrate=96000;ice-channels=2</audio_info>
+        <bitrate>96000</bitrate>
+        <genre>campusradio</genre>
+        <ice-bitrate>96000</ice-bitrate>
+        <ice-channels>2</ice-channels>
+        <ice-samplerate>48000</ice-samplerate>
+        <listener_peak>0</listener_peak>
+        <listeners>0</listeners>
+        <listenurl>http://streaming.funklust.de:8010/xheaac_S96</listenurl>
+        <max_listeners>unlimited</max_listeners>
+        <public>0</public>
+        <server_description>Unspecified description</server_description>
+        <server_name>funklust xHE S96</server_name>
+        <server_type>audio/usac</server_type>
+        <server_url>https://www.funklust.de</server_url>
+        <slow_listeners>0</slow_listeners>
+        <source_ip>131.188.213.136</source_ip>
+        <stream_start>Tue, 04 Jun 2024 20:14:42 +0000</stream_start>
+        <stream_start_iso8601>2024-06-04T20:14:42+0000</stream_start_iso8601>
+        <total_bytes_read>7224625367</total_bytes_read>
+        <total_bytes_sent>0</total_bytes_sent>
+    </source>
+</icestats>
