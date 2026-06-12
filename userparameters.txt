@@ -1,8 +1,8 @@
 
-UserParameter=icecast.global.clients,/usr/local/scripts/zabbix/icestats.sh clients
-UserParameter=icecast.global.client_connections,/usr/local/scripts/zabbix/icestats.sh client_connections
-UserParameter=icecast.global.sources,/usr/local/scripts/zabbix/icestats.sh sources
-UserParameter=icecast.source.listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-listeners $1
-UserParameter=icecast.source.peak_listeners[*],/usr/local/scripts/zabbix/icestats.sh peak-listeners $1
-UserParameter=icecast.source.slow_listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-slow_listeners $1
-
+UserParameter=icecast.global.clients,bash /usr/share/zabbix/scripts/icestats.sh clients
+UserParameter=icecast.global.client_connections,bash /usr/share/zabbix/scripts/icestats.sh client_connections
+UserParameter=icecast.global.sources,bash /usr/share/zabbix/scripts/icestats.sh sources
+UserParameter=icecast.source.listeners[*],bash /usr/share/zabbix/scripts/icestats.sh mount-listeners $1
+UserParameter=icecast.source.peak_listeners[*],bash /usr/share/zabbix/scripts/icestats.sh peak-listeners $1
+UserParameter=icecast.source.slow_listeners[*],bash /usr/share/zabbix/scripts/icestats.sh mount-slow_listeners $1
+UserParameter=icecast.source.bitrate[*],bash /usr/share/zabbix/scripts/icestats.sh mount-bitrate $1
