@@ -8,7 +8,7 @@
 
  <xsl:template match="source">
    <xsl:if test="@mount=$mount">
-    <xsl:value-of select="listeners/text()"/>
+    <xsl:value-of select="number(listeners/text())"/>
    </xsl:if>
  </xsl:template>
 </xsl:stylesheet>
