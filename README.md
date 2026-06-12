@@ -44,3 +44,9 @@ In the ``icecast.source.*`` items the first parameter ($1) is the name of an ice
 * [Lucas Bickel](https://github.com/hairmare)
 * [Marcel Hecko](https://github.com/hecko)
 * [Lukáš Viktora](https://github.com/zetneteork)
+* [Julian Popp](https://github.com/j3po)
+
+## Ideas
+* [ ] Replace wget with curl and check HTTP response
+* [ ] Itemization of stream endpoints
+* [ ] Maybe transfer from XML to JSON stats
