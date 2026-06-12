@@ -39,12 +39,30 @@ You can use the following keys for monitoring.
 
 In the ``icecast.source.*`` items the first parameter ($1) is the name of an icecast mountpoint
 
-## Contributors
+## License
+zabbix-icecast - a template for Zabbix to gather statistics for an
+icecast2 server
 
-* [Lucas Bickel](https://github.com/hairmare)
-* [Marcel Hecko](https://github.com/hecko)
+Copyright (C) 2010-2026 by the Contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Contributors
+* [Lucas Bickel](https://github.com/hairmare) Radio RaBe
+* [Marcel Hecko](https://github.com/hecko) for SHMU FM
 * [Lukáš Viktora](https://github.com/zetneteork)
-* [Julian Popp](https://github.com/j3po)
+* [Julian Popp](https://github.com/j3po) for funklust
 
 ## Ideas
 * [ ] Replace wget with curl and check HTTP response
