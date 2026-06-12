@@ -23,19 +23,34 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-. /usr/local/scripts/zabbix/icestats.conf
+# read conf file to create the env variables
+. /usr/share/zabbix/scripts/icestats.conf
 
-# load a stats dump from icecast
+SCRIPT_DIR="$(dirname "$0")"
+
 function load_stats {
+    local max_age=$(( $(date +%s) - 30 ))
 
-	# file is fetched every 30 secs
-	max_age=$((`date +%s` - 30))
-	
-	if [[ `stat -c %Y $STATS_TMP` -lt $max_age ]]; then
-		wget -q $STATS_URL -O $STATS_TMP --http-user=$HTTP_USER --http-password=$HTTP_PASSWORD
-	fi
+    if [[ ! -f "$STATS_TMP" ]] || [[ $(stat -c %Y "$STATS_TMP") -lt $max_age ]]; then
+        if ! wget -q "$STATS_URL" -O "$STATS_TMP" \
+                --http-user="$HTTP_USER" \
+                --http-password="$HTTP_PASSWORD"; then
+            echo "Error: failed to fetch stats from $STATS_URL" >&2
+            exit 1
+        fi
+    fi
 }
 
-# main action
+if [[ -z "$1" ]]; then
+    echo "Usage: $0 <xsl-name> <mount>" >&2
+    exit 1
+fi
+
+XSL_FILE="$SCRIPT_DIR/xslt/$1.xsl"
+if [[ ! -f "$XSL_FILE" ]]; then
+    echo "Error: XSL file not found: $XSL_FILE" >&2
+    exit 1
+fi
+
 load_stats
-xsltproc --stringparam mount "$2" "`dirname $0`/xslt/$1.xsl" $STATS_TMP
+xsltproc --stringparam mount "$2" "$XSL_FILE" "$STATS_TMP"
