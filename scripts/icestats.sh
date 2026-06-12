@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# grab data from zabbix stats url
+# zabbix-icecast - a template for Zabbix to gather statistics for an
+# icecast2 server
 #
-# this also takes care of only requesting the file when needed. h
-# eavy lifting is done by some xslt sheets contained in the xslt
-# subdir. 
-#
-# Copyright - 2010 - Lucas Bickel for Radio RaBe
-# Copyright - 2012 - Marcel Hecko for SHMU FM
+# Copyright (C) 2010-2026 by the Contributors
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,13 +17,13 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
 
 # read conf file to create the env variables
 . /usr/share/zabbix/scripts/icestats.conf
 
 SCRIPT_DIR="$(dirname "$0")"
 
+# function definition
 function load_stats {
     local max_age=$(( $(date +%s) - 30 ))
 
@@ -41,16 +37,20 @@ function load_stats {
     fi
 }
 
+# Usage message
 if [[ -z "$1" ]]; then
     echo "Usage: $0 <xsl-name> <mount>" >&2
     exit 1
 fi
 
+# Check for XSL existance
 XSL_FILE="$SCRIPT_DIR/xslt/$1.xsl"
 if [[ ! -f "$XSL_FILE" ]]; then
     echo "Error: XSL file not found: $XSL_FILE" >&2
     exit 1
 fi
 
+# Call function to get xml
 load_stats
+# Transform XML with XSL file for desired statistic value
 xsltproc --stringparam mount "$2" "$XSL_FILE" "$STATS_TMP"
